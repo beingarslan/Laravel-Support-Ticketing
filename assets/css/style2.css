@@ -1,0 +1,149 @@
+:root{
+    --bs-cublack: #0a0135;
+    --bs-white: #ffffff;
+    --bs-cublue: #FC6736;
+    --bs-lightwhite: #FAF7FF;
+    --bd-primarycolor:#0A0135;
+    --bd-primarycolorliter:#8392d8;
+}
+
+/* Cremona Sans serif fonts :start */
+@font-face {
+    font-family: 'CremonaSansRegular';
+    src: url('../cremona-sans-typeface/Cremona.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.cremona-sans-regular{
+    font-family: 'CremonaSansRegular' !important;
+}
+/* Hacim start */
+@font-face {
+    font-family: 'Hacim';
+    src: url('../Hacim-Font/OTF/Hacim-Bold-Demo.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.hacim-font{
+    font-family: 'Hacim' !important;
+}
+
+body{
+    background-color: var(--bs-lightwhite) !important;
+}
+/* back color start */
+.bg-cublack{
+    background-color: var(--bs-cublack) !important;
+}
+.bg-cublue{
+    background-color: var(--bs-cublue) !important;
+}
+.bg-primarycolor{
+    background-color: var(--bd-primarycolor) !important;
+}
+
+.text-cublack{
+    color: var(--bs-cublack) !important;
+}
+.text-cublue{
+    color: var(--bs-cublue) !important;
+}
+.text-primarycolor{
+    color: var(--bd-primarycolor) !important;
+}
+ 
+/* back color end */
+
+/* button color  start */
+.btn-cublack{
+    background-color: var(--bs-cublack) !important;
+    color: var(--bs-white) !important;
+}
+.btn-cublack:hover{
+    background-color: var(--bs-white) !important;
+    color: var(--bs-cublack) !important;
+}
+.btn-cublack:focus{
+    background-color: var(--bs-white) !important;
+    color: var(--bs-cublack) !important;
+}
+.btn-cublack:active{
+    background-color: var(--bs-white) !important;
+    color: var(--bs-cublack) !important;
+}
+.btn-outline-cublack{
+    border-color: var(--bs-cublack) !important;
+    color: var(--bs-cublack) !important;
+}
+.btn-outline-cublack:hover{
+    background-color: var(--bs-cublack) !important;
+    color: var(--bs-white) !important;
+}
+.btn-outline-cublack:focus{
+    background-color: var(--bs-cublack) !important;
+    color: var(--bs-white) !important;
+}
+.btn-outline-cublack:active{
+    background-color: var(--bs-cublack) !important;
+    color: var(--bs-white) !important;
+}
+
+.btn-cublue{
+    background-color: var(--bs-cublue) ;
+    color: var(--bd-primarycolor) ;
+    font-weight: 700;
+    border-color: var(--bs-cublue) ;
+    font-size: medium;
+}
+.btn-cublue:hover{
+    background-color: transparent;
+    color: var(--bs-cublue);
+    border-color: var(--bs-cublue);
+}
+.btn-cublue:focus{
+    background-color: transparent;
+    color: var(--bs-cublue);
+    border-color: var(--bs-cublue);
+}
+.btn-cublue:active{
+    background-color: transparent;
+    color: var(--bs-cublue);
+    border-color: var(--bs-cublue);
+}
+.btn-outline-cublue{
+    border-color: var(--bs-cublue);
+    color: var(--bs-cublue);
+
+}
+.btn-outline-cublue:hover{
+    background-color: var(--bs-cublue) !important;
+    color: var(--bs-white) !important;
+    border: 1px solid var(--bs-white) !important;
+}
+.btn-outline-cublue:focus{
+    background-color: var(--bs-cublue) !important;
+    color: var(--bs-white) !important;
+    border: 1px solid var(--bs-white) !important;
+}
+.btn-outline-cublue:active{
+    background-color: var(--bs-cublue) !important;
+    color: var(--bs-white) !important;
+    border: 1px solid var(--bs-white) !important;
+}
+/* button color end */
+
+
+
+/* border color */
+.border-cublack{
+    border-color: var(--bs-cublack) !important;
+}
+.border-cublue{
+    border-color: var(--bs-cublue) !important;
+}
+.border-primarycolor{
+    border-color: var(--bd-primarycolorliter) !important;
+}
+/* border color */
