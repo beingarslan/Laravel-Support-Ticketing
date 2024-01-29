@@ -117,7 +117,7 @@ class Ticket extends Model implements HasMedia
                     })
                     ->orWhereHas('tickets', function ($q) {
                         return $q->whereId($this->id);
-                    }); 
+                    });
                 });
             })
             ->when(!$comment->user_id && !$this->assigned_to_user_id, function ($q) {
@@ -131,10 +131,10 @@ class Ticket extends Model implements HasMedia
             ->get();
         $notification = new CommentEmailNotification($comment);
 
-        Notification::send($users, $notification);
+        // Notification::send($users, $notification);
         if($comment->user_id && $this->author_email)
         {
-            Notification::route('mail', $this->author_email)->notify($notification);
+            // Notification::route('mail', $this->author_email)->notify($notification);
         }
     }
 }
